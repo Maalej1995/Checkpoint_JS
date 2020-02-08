@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./res/GoMyCodeIcon.png">
+</head>
+<body>
+    <div class="navigationBarParent">
+        <a href="./Home.html">
+            <img id="logo" src="./res/GoMyCodeIcon.png" alt="GoMyCodeLogo" width="100%">
+        </a>
+        <ul class="navigationBarChild">
+            <li id="Home_Link"><a href="./Home.html">Home</a></li>
+            <li id="Courses_Link"><a href="./Courses.html">Courses</a></li>
+            <li id="Contact_Link"><a href="./Contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <center>
+        <h1><b>COURSES</b></h1>
+        <h2><b>Feedback</b></h2>
+        <input type="button" value="B" onclick="BoldText()">
+        <input type="button" value="I" onclick="ItalicText()">
+        <input type="button" value="Underline" onclick="UnderlineText()">
+        <select name="" id="" onchange="TextSize()">
+            <option id="20" value="">20px</option>
+            <option id="30" value="">30px</option>
+            <option id="40" value="">40px</option>
+        </select>
+        <select name="" id="" onchange="TextFont()">
+            <option id="Ari" value="">Arial</option>
+            <option id="Cal" value="">Calibri</option>
+            <option id="Tim" value="">Times New Roman</option>
+        </select>
+        <br>
+        <textarea name="" id="TextArea1" cols="30" rows="10" ></textarea>
+    </center>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+html {
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, black, black 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+#Home_Link, #Contact_Link, #Courses_Link{
+    font-size: x-large;
+    font-style: unset;
+}
+h1,h2 {
+    color: white;
+    text-align: center;
+}
+li,label, a{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2%;
+    width: 20%;
+    background-color: none;
+  }
+
+a {
+    width: 8%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orangered;
+}
+.navigationBarParent {
+    display: flex;
+    justify-content: space-between;
+}
+.navigationBarChild {
+    display: flex;
+    justify-content: space-around;
+    flex: auto;
+}
+
+#TextArea1 {
+    width: 25%;
+    height: 200px;
+}
